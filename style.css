@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    background: rgb(255, 214, 221);
+    justify-content: center;
+    align-content: space-evenly;
+    padding: 5em;
+}
+h1{
+    font-size: 30px;
+    width: 20em;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    position: absolute;
+    margin-bottom: 6em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.plankhaar h2{
+    margin-bottom: 12em;
+}
+.kast{
+    width: 35em;
+    display: flex;
+    flex-direction: column;
+}
+.plank{
+    background-color: rgb(226, 162, 126);
+    border: .5em solid black;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3em;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 1 / .3;
+}
+
+.plankbroek{
+    background-color: rgb(226, 162, 126);
+    border: .5em solid black;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3em;
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 1 / .3;
+}
+
+.plankhaar{
+    background-color: rgb(226, 162, 126);
+    border: .5em solid black;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3em;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 1 / .6;
+    flex-wrap: wrap;
+}
+
+.haar, .haar1, .haar2, .haar3, .haar4, .haar5, .haar6, .haar7, .haar8{
+    width: 85px;
+    height: auto;
+}
+
+.ogen, .ogen1, .ogen2{
+    width: 80px;
+    height: auto;
+    margin: 10px;
+}
+
+.schoenen, .schoenen1, .schoenen2{
+    height: 30px;
+    margin: 10px;
+}
+
+.mond, .mond1, .mond2{
+    width: 70px;
+    height: auto;
+    margin: 10px;
+}
+
+
+.huid1, .huid2, .huid3, .huid4{
+    width: 5em;
+    height: 5em;
+}
+
+.shirt, .shirt1, .shirt2{
+    width: 81px;
+    height: auto;
+    margin: 10px;
+}
+
+.broek, .broek1, .broek2{
+    width: 38px;
+    height: auto;
+    margin: 10px;
+}
+
+#poppetje{
+    width: 18em;
+    height: auto;
+    margin-left: 176px;
+    margin-top: 107px;
+}
+
+
+.huidpop{
+    position: absolute;
+    height: 372px;
+    margin-top: 91px;
+    margin-left: -263px;
+}
+
+.ogenpop{
+    position: absolute;
+    height: 47px;
+    margin-top: 158px;
+    margin-left: -208px;
+}
+
+.mondpop{
+    position: absolute;
+    height: 47px;
+    margin-top: 201px;
+    margin-left: -204px;
+}
+
+.haarpop{
+    position: absolute;
+    height: 230px;
+    margin-top: 89px;
+    margin-left: -296px;
+}
+
+.shirtpop{
+    position: absolute;
+    height: 210px;
+    margin-top: 254px;
+    margin-left: -234px;
+}
+
+.broekpop{
+    position: absolute;
+    height: 176px;
+    margin-top: 381px;
+    margin-left: -226px;
+}
+
+.schoenenpop{
+    position: absolute;
+    height: 49px;
+    margin-top: 538px;
+    margin-left: -205px;
+}
+
+.knop{
+    position: absolute;
+    margin-top: 594px;
+    margin-left: -211px;
+    width: 101px;
+    height: 43px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    background:rgb(231, 135, 151);
+    border: 3px solid black;
+    border-radius: 0.2em;
+}
+
